@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap');
+
+body {
+	font-family: 'Quicksand', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #FEFBF3;
+}
+
+body, html {
+    height: 100%;
+}
+
+h1, h2 {
+    color: black;
+}
+
+hr {
+    width: 200px;
+    border: 1px solid black;
+}
+
+#aboutme {
+    padding-top: 3px;
+    text-align: center;
+}
+
+#aboutme h2 {
+    text-align: center;
+    font-size: 3em;
+}
+
+.hero-text h1 {
+    color: white;
+}
+
+footer {
+    padding: 20px;
+    color: white;
+    background-color: black;
+    text-align: center;
+    font-weight: bold;
+}
+
+nav a {
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover {
+    font-weight: bold;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 5px;
+    background-color: white;
+}
+
+.hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../image/code.jpg");
+    height: 75%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* position: relative; */
+    text-align: center;
+  }
+  
+.hero-text {
+    font-size: 2em;
+    text-align: center;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+button {
+    background-color: transparent;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: solid;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: black;
+}
+
+nav li {
+    display: inline;
+    list-style-type: none;
+    margin-right: 20px;
+}
+
+nav {
+    background-color:black;
+    width: 100%;
+    position: fixed;
+    padding: 5px;
+    top: 0;
+	display: flex;
+	margin: 0;
+	overflow: hidden;
+    opacity: 0.8;
+}
+
+.hero-text img {
+    /* width: 125px; */
+    width: 15%;
+    border-radius: 50%;
+}
+
+main {
+    padding: 10px;
+    overflow: auto;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+    padding: 5px;
+    text-align: center;
+}
+#box {
+    flex: 33%;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+#box .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    height: 100%;
+    margin-top: 5px;
+    text-align: center;
+}
+
+#box img {
+    width: 100%;
+    height: 350px;
+    border-radius: 5px;
+}
+
+#box button {
+    background-color: transparent;
+    color: black;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: solid;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#box button:hover {
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}
+
+#more,
+#more1,
+#more2,
+#more3,
+#more4,
+#more5,
+#more6,
+#more7,
+#more8 {
+    display: none;
+}
+
+#certificate h2,
+p {
+    text-align: center;
+}
+
+aside {
+    overflow: auto;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.profiles {
+    float: right;
+    width: 25%;
+    padding-left: 5px;
+}
+
+.bios {
+    float: left;
+    width: 75%;
+}
+
+.profiles .card {
+    text-align: center;
+    height: 350px;
+}
+
+.profiles img {
+    width: 100%;
+}
+  
+.profiles .title {
+    color: grey;
+    font-size: 18px;
+}
+
+aside h2 {
+    font-size: 2em;
+}
+
+.bios .card {
+    text-align: center;
+    height: 350px;
+}
+
+@media screen and (max-width: 1000px) {
+    .container,
+    .profiles,
+    .bios {
+        width: 100%;
+        height: auto;
+        padding: 0;
+    }
+    .container {
+        flex-direction: column;
+    }
+    #box img {
+        width: 100%;
+        height: 200px;
+        border-radius: 5px;
+    }
+}
+
+header {
+    display: inline;
+}
