@@ -63,7 +63,7 @@ nav a:hover {
 }
 
 .hero-image {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../image/code.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://storage.googleapis.com/submission1-dicoding/image/code.jpg");
     height: 75%;
     background-position: center;
     background-repeat: no-repeat;
